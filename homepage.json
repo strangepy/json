@@ -20,7 +20,7 @@
         "reload": {
           "type": "$network.request",
           "options": {
-            "url": "https://processwire.com/blog/rss/",
+            "url": "https://www.strangepy.com/feed.xml",
             "dataType": "rss"
           },
           "success": {
