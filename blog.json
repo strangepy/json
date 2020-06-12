@@ -50,15 +50,11 @@
                     },
                     {
                       "type": "label", 
-                      "text": "{{$(this).find('p.post-meta')}}"
-                    },
-                    {
-                      "type": "image",
-                      "text": "{{$(this).find('img')}}"
+                      "text": "{{$(this).find('p.post-meta').text()}}"
                     },
                     {
                       "type": "label", 
-                      "text": "{{$(this).find('div.post-entry')}}"
+                      "text": "{{$(this).find('div.post-entry').text()}}"
                     }
                   ],
                   "href": {
