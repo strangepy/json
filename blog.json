@@ -54,7 +54,7 @@
                     },
                     {
                       "type": "image",
-                      "text": "{{$(this).find('img')}}"
+                      "url": "{{$(this).find('img').attr('src')}}"
                     },
                     {
                       "type": "label", 
