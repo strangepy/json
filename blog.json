@@ -64,6 +64,10 @@
                     {
                       "type": "label", 
                       "text": "{{$(this).find('div.post-entry').text()}}"
+                    }, 
+                    {
+                      "type": "web", 
+                      "text": "{{$(this).innerHTML}}"
                     }
                   ]
                 }
