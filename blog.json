@@ -53,6 +53,10 @@
                       "text": "{{$(this).find('p.post-meta').text()}}"
                     },
                     {
+                      "type": "image",
+                      "text": "{{$(this).find('img')}}"
+                    },
+                    {
                       "type": "label", 
                       "text": "{{$(this).find('div.post-entry').text()}}"
                     }
