@@ -1,0 +1,78 @@
+{
+  "$jason": {
+    "head": {
+      "title": "strangePy Blog",
+      "description": "Shows latest blog posts from strangePy",
+      "icon": "https://raw.githubusercontent.com/strangepy/strangepy-fork/master/favicon.ico",
+      "styles": {
+        "bold": {
+          "font": "HelveticaNeue-CondensedBold",
+          "size": "15"
+        }
+      },
+      "actions": {
+        "$pull": {
+          "trigger": "reload"
+        },
+        "$load": {
+          "trigger": "reload"
+        },
+        "reload": {
+          "type": "$network.request",
+          "options": {
+            "url": "https://www.strangepy.com/",
+            "dataType": "html"
+          },
+          "success": {
+            "type": "$convert.html",
+            "options": {
+              "data": "{{$jason}}"
+            },
+            "success": {
+              "type": "$render"
+            }
+          }
+        }
+      },
+      "templates": {
+        "body": {
+          "sections": [
+            {
+              "items": {
+                "{{#each $jason.find('article.post-preview')}}": {
+                  "type": "vertical",
+                  "components": [
+                    {
+                      "type": "label",
+                      "text": "{{$(this).find('post-title').text()}}"
+                    },
+                    {
+                      "type": "label",
+                      "text": "{{$(this).find('post-subtitle').text()}}"
+                    },
+                    {
+                      "type": "label", 
+                      "text": "{{$(this).find('p.post-meta')}}"
+                    },
+                    {
+                      "type": "image",
+                      "text": "{{$(this).find('img')}}"
+                    },
+                    {
+                      "type": "label", 
+                      "text": "{{$(this).find('div.post-entry')}}"
+                    }
+                  ],
+                  "href": {
+                    "view": "web",
+                    "url": "{{$(this).find('a').attr('href')}}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
