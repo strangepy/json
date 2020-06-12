@@ -24,12 +24,10 @@
             "dataType": "html"
           },
           "success": {
-            "type": "$convert.html",
+            "type": "$render",
             "options": {
+              "type": "html",
               "data": "{{$jason}}"
-            },
-            "success": {
-              "type": "$render"
             }
           }
         }
