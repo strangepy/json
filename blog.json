@@ -70,7 +70,7 @@
                       "style": {
                         "height": "300", 
                       },
-                      "text": "<html><body>{{var test = document.querySelector('article.post-preview').innerHTML; return test;}}</body></html>"
+                      "text": "{{var test = document.querySelector('article.post-preview').innerHTML; return '<html><body>'+test+'</body></html>';}}"
                     }
                   ]
                 }
