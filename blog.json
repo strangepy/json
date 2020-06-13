@@ -54,12 +54,7 @@
                     },
                     {
                       "type": "image",
-                      "url": "{{$(this).find('img').attr('src')}}", 
-                      "style": {
-                        "width": "50",
-                        "height": "50",
-                        "corner_radius": "25"
-                      }
+                      "url": "{{$(this).find('img').attr('src')}}"
                     },
                     {
                       "type": "label", 
