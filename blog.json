@@ -54,7 +54,7 @@
                     },
                     {
                       "type": "image",
-                      "url": "'https://www.strangepy.com/' + {{$(this).find('img').attr('src')}}", 
+                      "url": "https://www.strangepy.com/{{$(this).find('img').attr('src')}}", 
                       "style": {
                         "width": "50",
                         "height": "50",
