@@ -54,7 +54,7 @@
                     },
                     {
                       "type": "image",
-                      "url": "https://www.strangepy.com{{$(this).find('img').attr('src')}}"
+                      "url": "var loc = $(this).querySelector('img').getAttribute('src'); return 'https://www.strangepy.com'+loc;"
                     },
                     {
                       "type": "label", 
