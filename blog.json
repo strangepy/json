@@ -54,7 +54,7 @@
                     },
                     {
                       "type": "image",
-                      "url": "{{$(this).find('img').attr('src')}}"
+                      "url": "https://www.strangepy.com{{$(this).find('img').attr('src')}}"
                     },
                     {
                       "type": "label", 
