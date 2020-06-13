@@ -59,13 +59,6 @@
                     {
                       "type": "label", 
                       "text": "{{$(this).find('div.post-entry').text()}}"
-                    }, 
-                    {
-                      "type": "web",
-                      "style": {
-                        "height": "300", 
-                      },
-                      "text": "{{var test = document.querySelector('article.post-preview').innerHTML; return '<html><body>'+test+'</body></html>';}}"
                     }
                   ]
                 }
