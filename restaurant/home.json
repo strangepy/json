@@ -80,7 +80,7 @@
           },
           "background": {
             "type": "html",
-            "url": "{{'url' in $params ? $params.url : 'https://chiantirichmond.com/phone/index.html'}}",
+            "url": "{{'url' in $params ? $params.url : 'http://chiantirichmond.com/'}}",
             "action": {
               "trigger": "visit"
             }
