@@ -48,7 +48,7 @@
                 },
                 "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
               }, {
-                "image": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/restaurant-fill.png",
+                "image": "https://github.com/strangepy/json/blob/master/restaurant/restaurantfillresized.png",
                 "text": "Menu",
                 "style": {
                   "height": "21"
