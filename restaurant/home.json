@@ -48,8 +48,8 @@
                 },
                 "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
               }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/notifications.png",
-                "text": "Notifications",
+                "image": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/restaurant-fill.svg",
+                "text": "Menu",
                 "style": {
                   "height": "21"
                 },
