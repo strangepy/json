@@ -80,7 +80,7 @@
           },
           "background": {
             "type": "html",
-            "url": "{{'url' in $params ? $params.url : 'https://news.ycombinator.com'}}",
+            "url": "{{'url' in $params ? $params.url : 'http://chiantirichmond.com/phone/index.html'}}",
             "action": {
               "trigger": "visit"
             }
