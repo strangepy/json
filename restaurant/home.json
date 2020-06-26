@@ -9,7 +9,7 @@
         },
         "visit": [
           {
-            "{{#if /\\/(newest|newcomments|show|ask|jobs|submit)$/.test($jason.url) }}": {
+            "{{#if /\\/(menus|about|specialsblog|gallery|contact|submit)$/.test($jason.url) }}": {
               "type": "$default"
             }
           },
