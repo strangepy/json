@@ -32,7 +32,8 @@
       "templates": {
         "body": {
           "header": {
-            "title": "Restaurant"
+            "type": "image", 
+            "url": "http://chiantirichmond.com/images/pasted-svg-277x118.svg"
           },
           "footer": {
             "tabs": {
