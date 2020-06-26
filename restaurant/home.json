@@ -32,7 +32,7 @@
       "templates": {
         "body": {
           "header": {
-            "title": "Custom Browser"
+            "title": "Restaurant"
           },
           "footer": {
             "tabs": {
@@ -41,40 +41,40 @@
                 "color": "#009efa"
               },
               "items": [{
-                "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/home.png",
+                "image": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/home-2-fill-grey.png",
                 "text": "Home",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                "url": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/home.json"
               }, {
-                "image": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/restaurantfillcolored.png",
+                "image": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/restaurant-fill-grey.png",
                 "text": "Menu",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                "url": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/home.json"
               }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/moments.png",
-                "text": "Moments",
+                "image": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/gallery-fill-grey.png",
+                "text": "Gallery",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                "url": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/home.json"
               }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/messages.png",
-                "text": "Messages",
+                "image": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/phone-fill-grey.png",
+                "text": "Contact",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                "url": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/home.json"
               }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/me.png",
-                "text": "Me",
+                "image": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/team-fill-grey.png",
+                "text": "About",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+                "url": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/home.json"
               }]
             }
           },
