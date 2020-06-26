@@ -26,6 +26,17 @@
                 }
               }
             }
+          },
+          {
+            "type": "$script.include",
+            "options": {
+              "items": [
+                { "text": "document.querySelector('a[href*=facebook]').parentElement.parentElement.removeChild(document.querySelector('a[href*=facebook]').parentElement);" }
+              ]
+            },
+            "success": {
+              "type": "$render"
+            }
           }
         ]
       },
