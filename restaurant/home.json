@@ -33,7 +33,7 @@
         "body": {
           "header": {
             "type": "image", 
-            "url": "http://chiantirichmond.com/images/pasted-svg-277x118.svg"
+            "url": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/chianti.png"
           },
           "footer": {
             "tabs": {
