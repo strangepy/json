@@ -1,8 +1,8 @@
 {
   "$jason": {
     "head": {
-      "title": "Selective URL handling",
-      "description": "By attaching an action called 'visit' and observing the $jason.url value, we can selectively trigger different actions depending on the clicked URL. In this case the browser demonstrates a regular behavior when you click the top menu items, but does a native $href transition if you click any other link",
+      "title": "Test Restaurant App",
+      "description": "Test app for native transitions plus web container.",
       "actions": {
         "$load": {
           "type": "$render"
@@ -17,7 +17,7 @@
             "{{#else}}": {
               "type": "$href",
               "options": {
-                "url": "https://jasonette.github.io/Jasonpedia/webcontainer/agent/hijack.json",
+                "url": "https://raw.githubusercontent.com/strangepy/json/master/restaurant/home.json",
                 "preload": {
                   "background": "#ffffff"
                 },
